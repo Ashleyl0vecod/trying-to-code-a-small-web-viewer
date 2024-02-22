@@ -7,12 +7,12 @@ var picWidth = IMAGE_WIDTH;
 var picHeight = IMAGE_HEIGHT;   
 const defaultImage = '/img/buy_icon.png'; 
 
-func commonPrefixLenIgnoreCase(s, prefix string) int {
-	n := len(prefix)
-	if n > len(s) {	sign := 1
-	nsign := 0
-	switch s[0] {
-	case '+', '-':}
+// func commonPrefixLenIgnoreCase(s, prefix string) int {
+// 	n := len(prefix)
+// 	if n > len(s) {	sign := 1
+// 	nsign := 0
+// 	switch s[0] {
+// 	case '+', '-':}
 
 func (b *decimal) set(s string) (ok bool) {
 	i := 0
