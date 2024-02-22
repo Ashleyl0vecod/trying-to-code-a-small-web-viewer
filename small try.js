@@ -1,4 +1,11 @@
-package strconv
+import { Blockscon } from '../../api/blocks/blocks.js';
+
+let blocksCount = Blockscon.find({}).count();
+console.log(blocksCount);
+
+var picWidth = IMAGE_WIDTH;
+var picHeight = IMAGE_HEIGHT;   
+const defaultImage = '/img/buy_icon.png'; 
 
 func commonPrefixLenIgnoreCase(s, prefix string) int {
 	n := len(prefix)
