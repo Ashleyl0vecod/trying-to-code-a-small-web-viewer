@@ -23,3 +23,11 @@ func (b *decimal) set(s string) (ok bool) {
 	if i >= len(s) {
 		return
 	}}
+            try { 
+                let response = HTTP.get(recipesUrl);
+                //selectedItem = JSON.parse(response.content).CompletedExecutions;   
+                selectedRecipe = JSON.parse(response.content).Recipe;
+                
+            } catch (e) { 
+                console.log(e);
+            }
